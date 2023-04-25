@@ -1,7 +1,11 @@
+import { useParams } from 'react-router-dom'
 import BtnGitHub from '../components/btnGitHub/BtnGitHub'
+import { projects } from '../helpers/projectsList'
 import img from '../img/projects/01-big.jpg'
 
 const Project = () => {
+	const { id } = useParams()
+
 	return (
 		<main className='section '>
 			<div className='container'>
