@@ -1,11 +1,11 @@
-const btnDarkMode = document.querySelector('.dark-mode-btn')
-// prettier-ignore
-const scheme = "(prefers-color-scheme: dark)"
+// const btnDarkMode = document.querySelector('.dark-mode-btn')
+// // prettier-ignore
+// const scheme = "(prefers-color-scheme: dark)"
 
-// 1. Сheck dark mode in system settings
-if (window.matchMedia && window.matchMedia(scheme).matches) {
-	changeTheme('dark')
-}
+// // 1. Сheck dark mode in system settings
+// if (window.matchMedia && window.matchMedia(scheme).matches) {
+// 	changeTheme('dark')
+// }
 
 /* 2. Check dark mode in local storage */
 let localSt = localStorage.getItem('darkMode')
